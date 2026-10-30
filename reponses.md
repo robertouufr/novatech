@@ -49,3 +49,6 @@ Commande : git revert d785676
 revert crée un nouveau commit (b47c0af) qui fait l'inverse de "Ajout promotion". Le commit d785676 reste dans l'historique.
 
 C'est différent de la mission 8 parce que ici le commit est déjà partagé. Avec reset on supprime le commit, et l'historique des autres ne correspond plus au mien. Avec revert on ne réécrit pas l'historique, on ajoute seulement un commit.
+
+## Remarque
+Missions 11 et 13 et questions finales non terminées faute de temps.
