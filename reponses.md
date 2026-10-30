@@ -50,5 +50,15 @@ revert crée un nouveau commit (b47c0af) qui fait l'inverse de "Ajout promotion"
 
 C'est différent de la mission 8 parce que ici le commit est déjà partagé. Avec reset on supprime le commit, et l'historique des autres ne correspond plus au mien. Avec revert on ne réécrit pas l'historique, on ajoute seulement un commit.
 
+## Mission 12
+
+Commande : git tag -a v1.0.0 -m "Première version stable de NovaTech"
+Afficher le tag : git show v1.0.0
+
+1.0.0 = MAJEUR.MINEUR.CORRECTIF
+- Correction de bug mineur : v1.0.1
+- Nouvelle fonctionnalité compatible : v1.1.0
+- Refonte majeure incompatible : v2.0.0
+
 ## Remarque
 Missions 11 et 13 et questions finales non terminées faute de temps.
