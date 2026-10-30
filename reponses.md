@@ -60,5 +60,14 @@ Afficher le tag : git show v1.0.0
 - Nouvelle fonctionnalité compatible : v1.1.0
 - Refonte majeure incompatible : v2.0.0
 
+## Mission 13
+
+Fichier .gitignore créé avec :
+debug.log
+cache/
+.env
+
+Vérification : git status → seul .gitignore apparaît, les 3 autres sont ignorés.
+
 ## Remarque
-Missions 11 et 13 et questions finales non terminées faute de temps.
+Missions 11 et questions finales non terminées faute de temps.
