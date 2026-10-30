@@ -23,3 +23,21 @@ R: git log --oneline --graph --all
 
 R : git show aefd166
 
+
+
+## Mission 7
+
+Commande utilisée pour annuler les modifications : git restore index.html
+Vérification : git status:
+On branch main
+nothing to commit, working tree clean
+
+## Mission 8
+
+Commande : git reset --mixed HEAD~1
+
+Le commit "Test affichage" est annulé, main revient au commit d'avant (HEAD~1).
+
+La modification est toujours dans style.css parce que --mixed enlève le commit et le staging, mais ne touche pas les fichiers.
+
+git reset --hard HEAD~1 aurait aussi supprimé la modification du fichier (et elle serait perdue).
