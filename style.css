@@ -23,3 +23,11 @@ body {
     color: #e84c14;
     text-align: center;
 }
+
+.formulaire {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    max-width: 400px;
+    margin: auto;
+}
